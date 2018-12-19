@@ -1,8 +1,8 @@
 doc
 config/config_global.php
+.idea\workspace.xml
 .idea
 .vscode
-
 logs
 api/web/index.php
 config/config_ucenter.php
