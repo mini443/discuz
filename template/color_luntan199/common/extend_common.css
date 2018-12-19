@@ -1,0 +1,222 @@
+
+
+/* -----------------------------------论坛首页模块 ------------------------------------- */
+
+
+/*栏目标题样式*/
+.xxbt{ font-size:16px; padding:10px 0 0 0; color:#707070; font-weight:700; }
+.xxbt h3{padding:2px 0 8px 0; border-bottom:1px solid #e0e0e0;}
+
+.xxbt2{ font-size:16px; padding:15px 0; color:#707070; font-weight:700; }
+.xxbt2 h3{ padding-left:26px; background:url({STYLEIMGDIR}/fkbj.png) no-repeat 4px 2px;}
+
+.imgg{ width:100%; height:10px; background:url({STYLEIMGDIR}/sanjiao2.png) no-repeat 30px 0;}
+
+
+
+
+/*首页幻灯片模块*/
+.dbanner01{  width:100%;}
+.dbanner02{  width:100%;}
+.dbanner03{  width:100%;}
+.ddbox{ width:100%; height:380px;}
+
+.slidebar em{ display:block; float:left; width:12px; height:12px; border-radius:12px; margin-left:8px; background:#FFF;cursor: pointer;}
+.slidebar em.on{background:#0093d8;}
+
+
+
+
+/*首页广告位模块*/
+#diyad2{ float:right; margin-bottom:18px; background-color:#99c800;}
+#diyad3{ float:right; background-color:#23c1da;}
+
+
+/*发表主题*/
+#fabiao{ float:right; font-size:16px; line-height:54px; }
+#fabiao a{ display:block; width:170px; height:54px; color:#fff; padding-left:130px;
+            background:#0093d8 url({STYLEIMGDIR}/write.png) no-repeat 100px 17px;}
+#fabiao a:hover{ background:#07a5f0 url({STYLEIMGDIR}/write.png) no-repeat 100px 17px;}
+
+
+/*今日头条*/
+.todayhot{width:270px; height:327px; padding:0 15px 0 15px; overflow:hidden; margin-left:20px; background: #fff;}
+.todayhot dl{ padding:12px 0; border-top:1px dashed #919191;}
+.todayhot dt{ font-weight:700; padding-left:15px; padding-bottom:12px; background: url({STYLEIMGDIR}/dot2.gif) no-repeat 2px 7px;}
+.todayhot dt a{ display:block; line-height:21px; height:21px; overflow:hidden;}
+.todayhot dd{ height:33px; padding-left:4px; color:#a1a1a1; font-size:12px;}
+
+
+
+
+/*最新主题-精华主题*/
+.zuozuo{ min-width:407px; background:#fff; padding:0 10px;}
+.youyou{ min-width:407px; background:#fff; padding:0 10px;}
+
+.remen{ background:#fff; padding:2px 5px;}
+.remen li{ padding-left:15px; line-height:35px; height:35px; overflow:hidden; background:url({STYLEIMGDIR}/dot2.gif) no-repeat 0 15px;}
+.remen li span{ float:right; color:#aaa; font-size:12px;}
+
+
+
+
+/*活跃会员*/
+.huiyuan{ width:270px; min-height:230px; background:#fff; padding:0 15px 10px 15px; overflow:hidden; margin-left:20px;}
+.huiyuan ul{ width:300px;}
+.huiyuan li{float:left; width:95px; padding: 5px 0 10px 5px;}
+.huiyuan li img{ border-radius:50px; }
+.huiyuan p{ width:67px; height:20px; padding:8px 0 0 3px; overflow:hidden;}
+
+
+
+
+/*论坛动态*/
+.dongtai{ float:right;width:270px; padding:0 15px 10px 15px; background:#FFF url({STYLEIMGDIR}/44jj.png) no-repeat 255px 15px;}
+#ddtt{padding-top:10px;}
+#dtpic{ padding-right:25px; background:url({STYLEIMGDIR}/yuan2.png) repeat-y 0 10px;}
+#dtbiaoti{ font-weight: normal; padding-top:10px; padding-bottom:5px;}
+#dtbiaoti a{ display:block; line-height:21px; height:21px; overflow:hidden;}
+#dtmm{ color:#aaa; padding-bottom:12px;}
+
+
+
+
+/*浏览排行*/
+#sllph{float:right; width:270px; padding:0 15px; background:#FFF; padding-bottom:10px;}
+#sllph ol{ padding-top:6px; background:url({STYLEIMGDIR}/sortnum2.png) no-repeat 0 4px;}
+#sllph li{ padding-top:5px; padding-bottom:15px; padding-left:30px;}
+#sllph li a{ display:block; line-height:21px; height:21px; overflow:hidden;}
+
+
+
+/*论坛热图*/
+.zhuti{ float:right; width:270px; padding:0 15px 10px 15px; background:#FFF; margin-bottom:10px;}
+#hdpp{ padding:10px 5px;}
+#fuhao2{ color:#0093d8; font-weight:600;}
+#hdimg{ padding:5px 5px 0 5px;}
+#baoming{ float:left; margin-left:5px; color:#aaa;}
+#ljcj{ display:block; float:right; width:70px; height:24px; line-height:24px; border:1px solid #4cc1f8; background:#FFF; color:#4cc1f8; font-size:12px; text-align:center; margin:0 5px 10px 0; border-radius: 2px;}
+#ljcj:hover{ background:#0093d8;color:#FFF;border:1px solid #0093d8;}
+
+
+
+/* -----------------------------------帖子列表页右侧模块 ------------------------------------- */
+
+
+
+/*热门帖子-热门回复*/
+.kuangjia{ background:#fff; border:0px solid #fff; width:300px; margin:0; padding:0; min-height:465px;}
+.kuangjia .frame-tab .tb{padding-left:5px; padding: 0;}
+.kuangjia .tab-title{background:none; padding:15px 0 0; height:50px; line-height:50px; overflow:visible;}
+.kuangjia .tb a{ color:#c0c0c0; font-size:14px; background:#555; border:0; padding:6px 40px; }
+.kuangjia .tb .a a{color:#fff; font-size:14px; font-weight:700; background:#0093d8; }
+
+#lbph{ padding-bottom:6px;}
+#lbph ol{ padding-top:5px; background:url({STYLEIMGDIR}/sortnum2.png) no-repeat 0 3px;}
+#lbph li{ padding-top:5px; padding-bottom:15px; padding-left:32px; min-height:21px; font-weight:normal;}
+#lbph li a{ display:block; line-height:21px; height:21px; overflow:hidden;}
+
+
+
+/*热门板块*/
+.bankuai{ float:right; width:270px; padding:0 15px 15px 15px; background:#FFF;}
+.bankuai ul{ margin-top:8px;}
+.bankuai li{ float:left; margin:6px 4px;}
+.bankuai li a{ display:block; color:#707070; border:1px solid #e7e8e8; font-size:14px; width:125px; height:45px; line-height:45px; text-align:center; overflow:hidden;}
+.bankuai li a:hover{ background:#f5f5f5;}
+
+
+
+/*论坛图文*/
+#zxtj{ width:270px; padding:0 15px; background:#FFF; padding-bottom:10px;}
+#ttjj{ margin-top:12px; margin-bottom:13px;}
+#tjimg{ padding-right:16px; padding-top:5px; padding-bottom:10px;}
+#tjtitle{ font-weight: normal; width:170px;}
+#tjtitle a{ display:block; line-height:28px; height:28px; overflow:hidden;}
+#tjmm{ float:left; font-size:12px; color:#aaa; margin-top:2px;}
+
+
+
+/*栏目精选*/
+#lmjx{ width:270px; padding:0 15px; background:#FFF; padding-bottom:15px; margin-bottom:10px;}
+#lmjx li{line-height:45px; height:45px; overflow:hidden;}
+#lmbt{ color:#0093d8; padding-right:5px; font-size:12px;}
+#lmbt a{ color:#555; padding-right:5px;}
+#lmbt a:hover{ color:#0093d8;}
+
+
+
+
+/* ----------------------------------- 资讯页模块 ------------------------------------- */
+
+
+/*列表页样式*/
+.xld4 dt { padding: 4px 0 16px; font-size:18px; font-weight:600;}
+.xld4 .m { float: left; margin: 8px 8px 10px 0; }
+.xld4 .atc { float: left; margin-top:5px; margin-right:20px; margin-bottom:5px;}		
+.xld4 dl{ width:860px; background:#FFF; padding:20px 10px; margin-top:15px;}
+.xld4 .atc img { width: 210px; height: 150px; background: {WRAPBG}; }
+
+#ddd{ padding-top:5px;}
+#summ{ color:#9a9a9a; line-height:25px; width:612px; height:50px; overflow:hidden; margin-bottom:25px;}
+#zzyy{ width:290px; height:60px; overflow:hidden; text-overflow:ellipsis;}
+
+#fl2{ color:#0093d8; padding-right:25px;}
+
+
+
+/*相关分类*/
+#xgfl {float:left; width:270px; padding:0 15px 10px 15px; background:#FFF;}
+#xgfl li{ float:left; margin:6px 4px;}
+#xgfl li a{ display:block; color:#555; width:125px; height:50px; line-height:50px; text-align:center; background:#ececec;}
+#xgfl li a:hover{ color:#FFF; background:#0093d8;}
+
+
+
+
+/*文章排行*/
+#newsph{float:right; width:270px; padding:0 15px; background:#FFF; padding-bottom:15px;}
+#newsph ol{ padding-top:10px; background:url({STYLEIMGDIR}/sortnum2.png) no-repeat 0 8px;}
+#newsph li{ padding-top:5px; padding-bottom:15px; padding-left:30px;}
+#newsph li a{ display:block; line-height:21px; height:21px; overflow:hidden;}
+
+
+
+/*最新文章*/
+#zxnews{ width:270px; padding:0 15px; background:#FFF; padding-bottom:10px;}
+#hytou2{ float:left; width:36px; height:36px; border-radius: 50px; margin-right:20px; }
+#shijian2{ color:#aaa; margin-top:5px;}
+#zxnews li{ padding:12px 5px 10px 5px;}
+
+
+
+/*编辑精选*/
+#bjjx{ width:270px; padding:0 15px 4px 15px; background:#FFF;}
+#bjjx li{ margin:20px 0 25px 3px; padding:0 0 0 15px; border-left:1px solid #0093d8; background:#fff;}
+#shijian{ color:#aaa; margin-top:5px;}
+
+
+
+
+/* ----------------------------------- 文章评论窗 ------------------------------------- */
+
+
+#comment{ padding: 5px;}
+#comment .bm_h{ background:#fff;}	
+#comment h3{ border-bottom:1px solid #0093d8; background:url({STYLEIMGDIR}/titlebg.png) no-repeat 0 5px;}
+#related_article{ padding: 5px;}
+#related_article .bm_h{ background:#fff;}
+#related_article h3{ border-bottom:1px solid #0093d8; background:url({STYLEIMGDIR}/titlebg.png) no-repeat 0 5px; }
+.pnn{ color:#fff; width:80px; height:30px; line-height:20px; background:#0093d8; border-radius: 15px; border:1px solid #0093d8; cursor: pointer;
+       margin-top:10px;}
+
+
+
+/* ----------------------------------- 发帖编辑窗 ------------------------------------- */
+
+
+#e_simple, #e_fullswitcher{ font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+.bar_swch{ font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+
+
+

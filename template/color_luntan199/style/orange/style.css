@@ -1,0 +1,216 @@
+/*
+[name]橙[/name]
+[iconbgcolor]#ff6600[/iconbgcolor]
+Powered by Discuz! X
+*/
+
+/* 重定义头部底部 */
+a:hover { color:#ff6600;}
+.xi2 a:hover{ color:#ff6600;}
+
+#toptb a:hover { color:#ff6600;}
+#um a:hover { color:#ff6600; }
+.scbar_btn_td {background: url(scsc2.png) no-repeat -3px 2px; }
+#flk a:hover{ color:#ff6600;}
+#frt a:hover{ color:#ff6600;}
+#hd h2 a {background:url(logo.png) no-repeat;}
+#hd h2 img { opacity: 0; filter: alpha(opacity=0); }
+
+
+
+/* 重定义主导航 */
+#nvv{ height:50px; border-top:1px solid #e4e4e4; background:#fff url(nvbg.png) repeat-x;}
+#nv { overflow: hidden; height: 50px; background:url(nvbg.png) repeat-x; }
+#nv li.a { margin-left: -1px; background: url(ffhh.png) repeat-x;}
+#nv li.a a { color:#ff6600; background: url({ffhh.png) repeat-x;}
+#nv li a:hover {color:#ff6600; background: url(ffhh.png) repeat-x;}
+#nv li.hover a:hover, #nv li.hover a { background: url(ffhh.png) repeat-x;}
+
+#qmenu { background: url(qmenu.png) no-repeat 0 0; }
+#qmenu_menu { border-color: #f8cdb8; }
+
+
+/* 重定义通用区域 */
+#comment h3{ border-bottom:1px solid #ff6600; background:url(titlebg.png) no-repeat 0 5px;}
+#related_article h3{ border-bottom:1px solid #ff6600; background:url(titlebg.png) no-repeat 0 5px;}
+.zaiyao strong{ color:#ff6600;}
+#fl2{ color:#ff6600;}
+.tl .th{ background:#e4e4e4;}
+.fl .bm_h h2 { border-bottom:1px solid #e0e0e0; background:url(titlebg.png) no-repeat 0 5px;}
+.ct2_a, .ct3_a { background-image: url(vlineb.png); }
+.tb .o { border: 1px solid #ff6600;}
+.fl_by a:hover { color:#ff6600; }
+.fl_g dd a:hover { color:#ff6600;}
+
+.bdl { border-top:3px solid #ff6600; }
+.bdl dt { background-image: url(titlebg_sd.png); }
+.bdl dd.bdl_a a { background-color: #fff1ea; }
+
+.ttp .a a {color:#ff6600; }
+.tl .common a:hover { color:#ff6600;}
+.fenge{ padding:0 8px; color:#ff6600;}
+.tl th em, .tl th em a { color: #ff6600; }
+.pn, .tb .o, .tb .o a { background-image: url(pn2.png); }
+#category_grid h4 {background: url(tb.png) repeat-x; }
+#category_grid .newimgbox:hover h4 span, #category_grid .subjectbox:hover h4 span, #category_grid .replaybox:hover h4 span, #category_grid .hottiebox:hover h4 span, #category_grid .goodtiebox:hover h4 span { background:url(grid.png) no-repeat 0 0;}
+.category_newlist li { background:url(dot2.gif) no-repeat left center;}
+
+
+
+/* 重定义按钮 */	
+#newspecial, #newspecialtmp{ background:#ff6600 url(pn_post.png) no-repeat 0 50%;}
+#newspecial:hover, #newspecialtmp:hover{background:#f55202 url(pn_post2.png) no-repeat 0 50%;}
+
+.pg strong{background-color:#ff6600; }
+.pg a:hover, .pgb a:hover { border-color:#ff6600; color:#ff6600; }
+#autopbn:hover { border:1px solid #f8cdb8; }
+.pnc, a.pnc { border-color: #ff6600; background-color: #ff6600;}
+#scrolltop a { background: url(scrolltop.png) no-repeat 0 0; }
+#pgt em{ background: url(pn_post.png) no-repeat 0 50%; }
+
+#scform_tb .a  { background: url(/searchbar.png) no-repeat 50% 100%; }
+#scform_form { background: url(searchbar.png) repeat-x 0 0; }
+.td_srchtxt { background: url(searchbar.png) no-repeat 0 -35px; }
+.td_srchbtn { background: url(searchbar.png) no-repeat 0 -70px; }
+
+#scrolltop { border: 1px solid #ff6600; border-top:0;}
+#scrolltop a { background: url(scrolltop.png) no-repeat 0 0; border-top: 1px solid #ff6600; }
+
+.bm_h .addnew {background: url(addbuddy.gif) no-repeat 0 55%; }
+.bm_h .rss { background: url(feed.gif) no-repeat 0 55%; }
+
+.pnn{ color:#fff; background:#ff6600; border:1px solid #ff6600;}
+.flbc { background: url(cls.gif) no-repeat 0 0;}
+.flw_delete { background: url(cls.gif) no-repeat 0 0; }
+
+
+/* 重定义群组广播用户组 */
+.moodfm_btn { background-image: url(mood_input_btn.png) !important; }
+#create_group_btn { display: block; background: url(create_group.png) no-repeat 0 0; }
+#create_group_btn img { opacity: 0; filter: alpha(opacity=0); }
+.el .ec .hot, .clct_list .xld .m { background-image: url(hotspot.gif); }
+.pll .s { background-image:url(polljoins.gif); }
+
+#uhd, .flw_replybox { background-color: #ffe4d1; }
+.pg_follow #fastpostsubmit { background-image: url(flw_post.png); }
+.flw_replybox .pnc { background-image: url(pn_reply.png); }
+.flw_replybox td table .pnc { background-image: url(pn_rt.png); }
+
+.p_pop a:hover, .p_pop a.a, #sctype_menu .sca { background-color:  #ffe4d1; }
+.blk a:hover { background-color: transparent; }
+
+.tdats .c0 h4 { background-color: #ff8737; }
+.tdats .c1 { border-color: #ff6600; }
+.tdats #c1 { border-color: #ff6600; background-color: #ff6600; background-position: 0 -40px; }
+.tdats .c2 { border-color: #e85d01; }
+.tdats #c2 { border-color: #e85d01; background-color: #e85d01; background-position: 0 -80px; }
+.tdats .c3 { border-color: #d04000; }
+.tdats #c3 { border-color: #d04000; background-color: #d04000; background-position: 0 -120px; }
+.tdats .c4 { border-color: #a03100; }
+.tdats #c4 { border-color: #a03100; background-color: #a03100; background-position: 0 -160px; }
+
+
+
+
+/* -----------------------------------重定义论坛首页模块 ------------------------------------- */
+
+
+
+/*栏目标题样式*/
+.xxbt2 h1{ background:url(fkbj.png) no-repeat 4px 2px;}
+.imgg{ background:url(sanjiao2.png) no-repeat 30px 0;}
+
+
+
+/*首页幻灯片模块*/
+.slidebar em.on{background:#ff6600;}
+
+
+
+/*发表主题*/
+#fabiao a{background:#ff8a00 url(write.png) no-repeat 100px 17px;}
+#fabiao a:hover{ background:#ff6600 url(write.png) no-repeat 100px 17px;}
+
+
+/*今日头条*/
+.todayhot dt{ background: url(dot2.gif) no-repeat 2px 7px;}
+
+
+
+
+/*最新主题-精华主题*/
+.remen li{ background:url(dot2.gif) no-repeat 0 15px;}
+
+
+
+
+/*论坛动态*/
+.dongtai{background:#FFF url(44jj.png) no-repeat 255px 15px;}
+#dtpic{ padding-right:25px; background:url(yuan2.png) repeat-y 0 10px;}
+
+
+
+
+/*浏览排行*/
+#sllph ol{ background:url(sortnum2.png) no-repeat 0 4px;}
+
+
+
+/*论坛热图*/
+#fuhao2{ color:#ff6600; font-weight:600;}
+#ljcj{ border:1px solid #ff9f2d; color:#ff9f2d;}
+#ljcj:hover{ background:#ff6600; border:1px solid #ff6600;}
+
+
+
+
+/* -----------------------------------重定义帖子列表页右侧模块 ------------------------------------- */
+
+
+
+
+/*热门帖子-热门回复*/
+
+.kuangjia .tb .a a{ background:#ff6600; }
+
+#lbph ol{ background:url(sortnum2.png) no-repeat 0 3px;}
+
+
+
+
+/*栏目精选*/
+
+#lmbt{ color:#ff6600;}
+#lmbt a:hover{ color:#ff6600;}
+
+
+
+
+/* ----------------------------------- 重定义资讯页模块 ------------------------------------- */
+
+
+/*列表页样式*/
+
+#fl2{ color:#ff6600; }
+
+
+
+/*相关分类*/
+
+#xgfl li a:hover{ background:#ff6600;}
+
+
+
+
+/*文章排行*/
+#newsph ol{ background:url(sortnum2.png) no-repeat 0 8px;}
+
+
+
+
+
+/*编辑精选*/
+#bjjx li{ border-left:1px solid #ff6600; }
+
+
+
